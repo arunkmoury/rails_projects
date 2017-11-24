@@ -11,6 +11,12 @@
 	<%= f.text_area :description %>
 	</p>
 	<p>
+		<%= check_box_tag(:language) %>
+		<%= label_tag(:language, "English") %>
+		<%= check_box_tag(:language) %>
+		<%= label_tag(:language, "Hindi") %>
+	</p>
+	<p>
 		<%= f.submit %>
 	</p>
 
